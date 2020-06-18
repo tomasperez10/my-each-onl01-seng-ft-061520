@@ -3,5 +3,5 @@ def my_each # put argument(s) here
   counter = 0
   
   while counter < array.length do
-    yield
+    yield(array[counter])
 end
